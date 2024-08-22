@@ -7,7 +7,7 @@ def initialize(guess, card)
     end
 
 def correct?
-    if @guess == @answer 
+    if @guess = card.answer
     
          @guess = true
 
@@ -17,15 +17,15 @@ def correct?
     end
 end
 
-# def feedback
-#     if correct? == true
-#         puts "Correct!"
+def feedback
+    if @guess = card.answer
+        puts "Correct!"
     
-#     else 
-#         puts "Incorrect."
+    else 
+        puts "Incorrect."
 
-#     end
-# end
+    end
+end
 
 
 
