@@ -22,7 +22,9 @@ def feedback
         puts "Correct!"
     
     else 
-        puts "Incorrect"
+        puts "Incorrect."
+
+    end
 
 
 
