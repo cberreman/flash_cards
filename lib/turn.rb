@@ -11,18 +11,19 @@ def correct?
     
          @guess = true
 
-    else 
-         @guess = false
+    elsif @guess != card.answer
+        
+        @guess = false
 
     end
 end
 
 def feedback
-    if @guess = card.answer
-        puts "Correct!"
+    if @guess = true
+         "Correct!"
     
-    else 
-        puts "Incorrect."
+    elsif @guess != false
+         "Incorrect."
 
     end
 end
