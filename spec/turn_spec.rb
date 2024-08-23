@@ -19,14 +19,14 @@ end
 it 'guess is true if same as answer' do 
     card = Card.new("What is the capital of Alaska?", "Juneau", :Geography)        
     turn = Turn.new("Juneau", card)
-    #  require 'pry' ; binding.pry   
+     require 'pry' ; binding.pry   
     expect(turn.guess).to eq(card.answer)
 end
 
 it 'feedback prints correct when guess is true' do 
     card = Card.new("What is the capital of Alaska?", "Juneau", :Geography)        
     turn = Turn.new("Juneau", card)
-     require 'pry' ; binding.pry   
+    #  require 'pry' ; binding.pry   
     expect(turn.guess).to eq(card.answer)
 end
 

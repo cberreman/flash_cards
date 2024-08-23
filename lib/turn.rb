@@ -9,20 +9,20 @@ def initialize(guess, card)
 def correct?
     if @guess = card.answer
     
-         @guess = true
+         true
 
     elsif @guess != card.answer
         
-        @guess = false
+        false
 
     end
 end
 
 def feedback
-    if @guess = true
+    if correct? == true
          "Correct!"
     
-    elsif @guess != false
+    elsif correct? != false
          "Incorrect."
 
     end
