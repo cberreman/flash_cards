@@ -6,4 +6,10 @@ def initialize(decks)
     @decks = decks
 
 end 
+
+def turns 
+    []
+end
+
+
 end

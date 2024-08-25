@@ -13,7 +13,7 @@ RSpec.describe Round do
         cards = [card_1, card_2, card_3] 
         deck = Deck.new(cards)
         round = Round.new(deck)
-         expect(round).to be_instance_of(Round)
+        expect(round).to be_instance_of(Round)
        
     end
 end
