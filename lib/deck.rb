@@ -10,11 +10,6 @@ def initialize(cards)
     @card_category = []
 end
 
-def cards 
-    
-    []
-
-end
 
 def count
     @cards.length
